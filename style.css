@@ -1,0 +1,87 @@
+
+* {
+  /* box-sizing: border-box; */
+}
+
+:focus {
+ /* TODO */
+}
+
+body {
+  /* TODO */
+  background: linear-gradient(45deg, #e15a00, #f5ca1c); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  /* background-image: linear-gradient(to left top, orange, yellow); */
+  /* Replace the color codes above with your desired gradient colors */
+}
+
+
+
+
+.search-container {
+ /* TODO */
+ 
+}
+.search-container input,
+.search-container .suggestions {
+  /* TODO */
+
+}
+.search-container input {
+ /* TODO */
+  width: 300px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  background-color: #eea53f;
+ 
+}
+.search-container .suggestions {
+   /* TODO */
+}
+
+ul {
+  /* TODO */
+}
+ul.has-suggestions {
+  /* TODO */
+}
+ul li {
+  /* TODO */
+}
+ul li:hover {
+  /* TODO */
+}
+
+input {
+   /* TODO */
+   background-color: rgba(101, 225, 30, 0.813);
+}
+
+.suggestions ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  background-color: #ea8f0e;
+  border: 1px solid #bca109;
+  display: none;
+  z-index: 1;
+}
+/* Styling for the li  */
+.suggestions li { 
+  padding: 8px;
+  cursor: pointer;
+}
+
+.suggestions li:hover {
+  background-color: #eee7e7;
+}
+
+
+.suggestions li.highlight {
+  background-color: rgb(111, 249, 5); 
+    /* Add other styles as needed */ 
+}
